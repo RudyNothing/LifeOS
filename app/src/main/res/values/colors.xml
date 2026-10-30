@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="lifeos_background">#F6F5FB</color>
+    <color name="lifeos_surface">#FFFFFF</color>
+    <color name="lifeos_primary">#6D4AFF</color>
+    <color name="lifeos_primary_dark">#5435D5</color>
+    <color name="lifeos_text">#242137</color>
+    <color name="lifeos_muted">#77748B</color>
+    <color name="lifeos_border">#E7E3F2</color>
+    <color name="lifeos_college">#DCEBFF</color>
+    <color name="lifeos_personal">#F2E2FF</color>
+    <color name="lifeos_private">#FFE5E5</color>
+    <color name="lifeos_success">#D8F5E2</color>
 </resources>

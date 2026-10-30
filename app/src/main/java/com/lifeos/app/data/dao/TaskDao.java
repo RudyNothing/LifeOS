@@ -33,4 +33,7 @@ public interface TaskDao{
 
     @Query("DELETE FROM tasks")
     void deleteAllTasks(); //To clear the task table
+
+    @Query("SELECT * FROM tasks WHERE category IS NULL OR category != 'Private' ORDER BY dueDate ASC")
+    LiveData<List<Task>> getNormalTasks();
 }

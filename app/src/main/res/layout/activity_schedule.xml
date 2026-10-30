@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scheduleRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lifeos_background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/buttonScheduleBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← Dashboard"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Schedule Manager"
+            android:textColor="@color/lifeos_text"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Make time for what matters."
+            android:textColor="@color/lifeos_muted"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/bg_lifeos_card"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create an event"
+                android:textColor="@color/lifeos_text"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editEventTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:hint="Event title"
+                android:inputType="textCapSentences"
+                android:padding="14dp"
+                android:background="@drawable/bg_lifeos_input"
+                android:textColor="@color/lifeos_text"
+                android:textColorHint="@color/lifeos_muted" />
+
+            <EditText
+                android:id="@+id/editEventDescription"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:gravity="top"
+                android:hint="Description (optional)"
+                android:inputType="textCapSentences|textMultiLine"
+                android:padding="14dp"
+                android:background="@drawable/bg_lifeos_input"
+                android:textColor="@color/lifeos_text"
+                android:textColorHint="@color/lifeos_muted" />
+
+            <EditText
+                android:id="@+id/editEventLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Location (optional)"
+                android:inputType="textCapSentences"
+                android:padding="14dp"
+                android:background="@drawable/bg_lifeos_input"
+                android:textColor="@color/lifeos_text"
+                android:textColorHint="@color/lifeos_muted" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="CATEGORY"
+                android:textColor="@color/lifeos_muted"
+                android:textStyle="bold"
+                android:textSize="12sp" />
+
+            <Spinner
+                android:id="@+id/spinnerEventCategory"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/bg_lifeos_input"
+                android:paddingHorizontal="10dp" />
+
+
+            <CheckBox
+                android:id="@+id/checkEventAllDay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="This is an all-day event"
+                android:textColor="@color/lifeos_text" />
+
+            <Button
+                android:id="@+id/buttonEventStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Choose start date and time"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:id="@+id/textEventStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No start time selected"
+                android:textColor="@color/lifeos_muted"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/buttonEventEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Choose end date and time"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:id="@+id/textEventEnd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No end time selected"
+                android:textColor="@color/lifeos_muted"
+                android:textSize="14sp" />
+
+
+            <CheckBox
+                android:id="@+id/checkEventReminder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Remind me about this event"
+                android:textColor="@color/lifeos_text" />
+
+            <Button
+                android:id="@+id/buttonEventReminder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Choose reminder date and time"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:id="@+id/textEventReminder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No reminder set"
+                android:textColor="@color/lifeos_muted"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/buttonSaveEvent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Save event"
+                android:textAllCaps="false" />
+
+
+            <Button
+                android:id="@+id/buttonCancelEventEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Cancel editing"
+                android:textAllCaps="false"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Your schedule"
+            android:textColor="@color/lifeos_text"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textNoEvents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Nothing scheduled yet. Add your first event above."
+            android:textColor="@color/lifeos_muted"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/eventListContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical" />
+
+    </LinearLayout>
+</ScrollView>

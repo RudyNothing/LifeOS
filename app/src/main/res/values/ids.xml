@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textKnowledgeDialogEyebrow" type="id"/>
+    <item name="textKnowledgeDialogTitle" type="id"/>
+    <item name="editKnowledgeNoteTitle" type="id"/>
+    <item name="editKnowledgeNoteContent" type="id"/>
+    <item name="textKnowledgeCategory" type="id"/>
+    <item name="checkKnowledgePinned" type="id"/>
+    <item name="buttonKnowledgeSave" type="id"/>
+    <item name="buttonKnowledgeCancel" type="id"/>
+</resources>

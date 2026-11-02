@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lifeos_background">#111019</color>
+    <color name="lifeos_surface">#211E2C</color>
+    <color name="lifeos_input_surface">#191622</color>
+    <color name="lifeos_chip">#30283E</color>
+    <color name="lifeos_primary">#B69AFF</color>
+    <color name="lifeos_primary_dark">#9678FF</color>
+    <color name="lifeos_text">#F6F2FF</color>
+    <color name="lifeos_muted">#AAA3BC</color>
+    <color name="lifeos_border">#383344</color>
+    <color name="lifeos_college">#283B57</color>
+    <color name="lifeos_personal">#453256</color>
+    <color name="lifeos_private">#512D37</color>
+    <color name="lifeos_success">#244A38</color>
+</resources>

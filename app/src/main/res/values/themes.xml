@@ -1,0 +1,21 @@
+<resources>
+    <style name="Base.Theme.LifeOS" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/lifeos_primary</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#20BDB4</item>
+        <item name="android:colorAccent">@color/lifeos_primary</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:buttonStyle">@style/LifeOSButton</item>
+        <item name="android:editTextStyle">@style/LifeOSEditText</item>
+        <item name="android:spinnerStyle">@style/LifeOSSpinner</item>
+        <item name="android:checkboxStyle">@style/LifeOSCheckBox</item>
+        <item name="android:radioButtonStyle">@style/LifeOSRadioButton</item>
+        <item name="android:alertDialogTheme">@style/LifeOSAlertDialog</item>
+        <item name="android:statusBarColor">@color/lifeos_background</item>
+        <item name="android:navigationBarColor">@color/lifeos_background</item>
+        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowLightNavigationBar">?attr/isLightTheme</item>
+    </style>
+    <style name="Theme.LifeOS" parent="Base.Theme.LifeOS" />
+</resources>

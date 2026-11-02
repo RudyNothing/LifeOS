@@ -1,0 +1,13 @@
+<resources>
+    <style name="Base.Theme.LifeOS" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/lifeos_primary</item>
+        <item name="colorOnPrimary">#211B32</item>
+        <item name="colorSecondary">#4CE0D3</item>
+        <item name="android:colorAccent">@color/lifeos_primary</item>
+        <item name="android:statusBarColor">@color/lifeos_background</item>
+        <item name="android:navigationBarColor">@color/lifeos_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:buttonStyle">@style/LifeOSButton</item>
+    </style>
+</resources>

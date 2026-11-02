@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lifeos_background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/textVaultFormHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Secure Record"
+            android:textColor="@color/lifeos_text"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editVaultTitle"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/bg_lifeos_input"
+            android:hint="Record title (e.g. Gmail)"
+            android:padding="14dp"
+            android:textColor="@color/lifeos_text"
+            android:textColorHint="@color/lifeos_muted" />
+
+        <EditText
+            android:id="@+id/editVaultUsername"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_lifeos_input"
+            android:hint="Username / Email"
+            android:inputType="textEmailAddress"
+            android:padding="14dp"
+            android:textColor="@color/lifeos_text"
+            android:textColorHint="@color/lifeos_muted" />
+
+        <EditText
+            android:id="@+id/editVaultPassword"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_lifeos_input"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="14dp"
+            android:textColor="@color/lifeos_text"
+            android:textColorHint="@color/lifeos_muted" />
+
+        <EditText
+            android:id="@+id/editVaultNotes"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_lifeos_input"
+            android:gravity="top|start"
+            android:hint="Private notes"
+            android:inputType="textMultiLine|textCapSentences"
+            android:padding="14dp"
+            android:textColor="@color/lifeos_text"
+            android:textColorHint="@color/lifeos_muted" />
+
+        <Spinner
+            android:id="@+id/spinnerVaultCategory"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_lifeos_input"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/buttonSaveVaultItem"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="24dp"
+            android:text="Save Secure Record"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/buttonCancelVaultItem"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="10dp"
+            android:text="Cancel"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+</ScrollView>

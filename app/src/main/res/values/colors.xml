@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lifeos_background">#F5F3FA</color>
+    <color name="lifeos_surface">#FFFFFF</color>
+    <color name="lifeos_input_surface">#F8F6FC</color>
+    <color name="lifeos_chip">#EEE9FA</color>
+    <color name="lifeos_primary">#7655E8</color>
+    <color name="lifeos_primary_dark">#5639BD</color>
+    <color name="lifeos_text">#211B32</color>
+    <color name="lifeos_muted">#817B91</color>
+    <color name="lifeos_border">#E6E0F0</color>
+    <color name="lifeos_college">#DCEBFF</color>
+    <color name="lifeos_personal">#F2E2FF</color>
+    <color name="lifeos_private">#FFE5E5</color>
+    <color name="lifeos_success">#D8F5E2</color>
+
+
+    <!-- Module accent colours -->
+    <color name="module_tasks">#477FE5</color>
+    <color name="module_schedule">#19A7A0</color>
+    <color name="module_finance">#269B70</color>
+    <color name="module_knowledge">#D69A32</color>
+    <color name="module_journal">#D66B91</color>
+    <color name="module_privacy">#8B72D6</color>
+
+    <!-- Finance Manager -->
+    <color name="finance_primary">#269B70</color>
+    <color name="finance_primary_dark">#197653</color>
+    <color name="finance_soft">#E2F3EB</color>
+    <color name="finance_danger">#D65C65</color>
+    <color name="finance_danger_soft">#FBEAEC</color>
+
+
+    <!-- Knowledge Hub -->
+    <color name="knowledge_primary">#D69A32</color>
+    <color name="knowledge_primary_dark">#A8751D</color>
+    <color name="knowledge_soft">#F8EEDB</color>
+    <color name="knowledge_border">#E8C98D</color>
+    <color name="knowledge_button_text">#49330D</color>
+
+
+    <!-- Journal & Memories -->
+    <color name="journal_primary">#D66B91</color>
+    <color name="journal_primary_dark">#AD456D</color>
+    <color name="journal_soft">#F9E8EF</color>
+    <color name="journal_border">#E9B9CC</color>
+    <color name="journal_button_text">#57243A</color>
+
+    <!-- Secure Vault theme -->
+    <color name="vault_primary">#C64F68</color>
+    <color name="vault_primary_dark">#96364D</color>
+    <color name="vault_accent_soft">#FBE8ED</color>
+    <color name="vault_surface">#FFF8F9</color>
+    <color name="vault_border">#F0D5DC</color>
+    <color name="vault_danger">#D64545</color>
+    <color name="vault_success">#31866A</color>
+
+
+</resources>
